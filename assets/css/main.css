@@ -1,6 +1,6 @@
 body::before {
     content: '';
-    background-image: url('../images/background.jpg');  /* adjust path if needed */
+    background-image: url('../images/galaxy.jpeg');  /* adjust path if needed */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
