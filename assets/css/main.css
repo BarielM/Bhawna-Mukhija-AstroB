@@ -1,3 +1,24 @@
+body::before {
+    content: '';
+    background-image: url('../images/background.jpg');  /* adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.25; /* adjust opacity */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
+
 /* This is where the Font Awesome fonts come from */
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
