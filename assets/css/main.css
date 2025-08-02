@@ -1151,7 +1151,7 @@ button {
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 		/* We can change the background image here. */
-		background-image: url("../../images/Massive_star.jpg");
+		background-image: url("../../images/andromeda-galaxy.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -1464,7 +1464,22 @@ button {
 				padding: 2.5rem 0;
 			}
 
-			#header nav ul {
+			#header nav ul {body::before {
+    content: '';
+    background-image: url('../images/andromeda-galaxy.jpg');  /* adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.25; /* adjust opacity */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
